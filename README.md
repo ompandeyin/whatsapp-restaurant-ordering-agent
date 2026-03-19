@@ -1,188 +1,180 @@
-# 🍕 RestoBot – AI WhatsApp Ordering Agent (n8n + OpenAI + Automation)
+# 🍕 RestoBot – AI WhatsApp Ordering Agent
 
-> **AI-powered WhatsApp bot that takes restaurant orders like a human waiter — 24/7, no app needed!**
+### ⚡ Automating Restaurant Orders using n8n + OpenAI + WhatsApp API
 
-[![n8n](https://img.shields.io/badge/n8n-Workflow%20Automation-FF6D5A?logo=n8n)](https://n8n.io)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai)](https://openai.com)
-[![Airtable](https://img.shields.io/badge/Airtable-Database-18BFFF?logo=airtable)](https://airtable.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Business%20API-25D366?logo=whatsapp)](https://business.whatsapp.com)
+<p align="center">
+  <b>Order food directly on WhatsApp — powered by AI, automation, and real-time workflows.</b>
+</p>
 
-![Workflow Overview](shots/1.png)
-
----
-
-## 🎯 What is RestoBot?
-
-RestoBot is an intelligent WhatsApp chatbot that automates restaurant ordering end-to-end. Customers order naturally through WhatsApp, and the bot handles everything — from showing menus to verifying payments to tracking deliveries — just like a human waiter.
-
-**No app downloads. No new platforms. Just WhatsApp.** 📱
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20With-n8n-FF6D5A?logo=n8n"/>
+  <img src="https://img.shields.io/badge/AI-OpenAI%20GPT--4o--mini-412991?logo=openai"/>
+  <img src="https://img.shields.io/badge/Database-Airtable-18BFFF?logo=airtable"/>
+  <img src="https://img.shields.io/badge/API-WhatsApp%20Business-25D366?logo=whatsapp"/>
+</p>
 
 ---
 
-## 💡 The Problem
+## 🚀 Overview
 
-### For Restaurant Owners:
+**RestoBot** is a fully automated AI-powered WhatsApp ordering system that replicates a human waiter experience.
 
-* Staff shortage for order handling
-* Missed calls during peak hours
-* High operational costs
-* Human errors in orders
-* Limited working hours
+Customers can:
 
-### For Customers:
+* Browse menu 📋
+* Place orders 🍔
+* Customize items 🎯
+* Make payments 💳
+* Track delivery 🚚
 
-* Long wait times
-* App fatigue
-* Complex ordering experience
-* Payment confusion
+👉 All inside WhatsApp — no app required.
 
 ---
 
-## ✅ The Solution
+## 🎯 Problem Statement
 
-RestoBot automates the entire ordering process:
+### 🍽️ Restaurant Challenges
 
-1. Greets customers naturally
-2. Displays menu dynamically
-3. Takes orders with variations
-4. Builds cart with live total
-5. Collects delivery details
-6. Handles payments (COD / Online)
-7. Verifies payment screenshots
-8. Stores order in database
-9. Tracks delivery status
-10. Handles cancellations
+* Missed orders during peak hours
+* Staff dependency & high cost
+* Manual errors in orders
+* Limited availability
+
+### 👤 Customer Pain Points
+
+* Waiting on calls
+* Installing multiple apps
+* Confusing ordering experience
 
 ---
 
-## ✨ Key Features
+## 💡 Solution
 
-### 🤖 Smart AI Chat
+RestoBot replaces manual order-taking with an **AI-driven automated workflow**:
 
-* Human-like conversation
-* Context-aware replies
-* Natural ordering experience
+```
+Customer → WhatsApp Chat  
+        ↓
+AI Bot → Menu + Interaction  
+        ↓
+Cart → Order → Payment  
+        ↓
+Database → Confirmation → Delivery Tracking  
+```
 
-### 🛒 Cart System
+---
 
-* Add items dynamically
-* Real-time cart updates
-* Handles add-ons & variations
+## 🧠 Core Features
 
-### 💳 Payment Verification
+### 🤖 Conversational AI Engine
 
-* Supports COD & Online payments
-* Screenshot-based verification
-* Fraud prevention logic
+* Human-like interaction
+* Context-aware responses
+* Smart follow-ups
 
-### 📊 Order Management
+### 🛒 Dynamic Cart System
 
-* Airtable database
-* Order tracking & status updates
-* Delivery confirmation system
+* Add/remove items
+* Real-time price updates
+* Supports variations & add-ons
 
-### 📱 WhatsApp Integration
+### 💳 Smart Payment Verification
 
-* No app needed
-* Works directly on WhatsApp
+* COD + Online Payment
+* Screenshot validation using AI
+* Fraud detection logic
+
+### 📊 Order Management System
+
+* Airtable database integration
+* Status tracking (Pending → Delivered)
+* Customer data storage
+
+### 📱 WhatsApp Automation
+
 * Real-time messaging
+* Image handling
+* Persistent chat context
 
 ---
 
-## 🔄 How It Works
+## 🏗️ System Architecture
 
-```
-User → WhatsApp Message
-     ↓
-Bot → Menu Display
-     ↓
-User → Select Items
-     ↓
-Bot → Cart + Total
-     ↓
-User → Confirm Order
-     ↓
-Bot → Payment & Details
-     ↓
-Order Stored → Confirmation Sent
-```
+![Architecture](shots/1.png)
+
+---
+
+## 📸 Project Preview
+
+<p align="center">
+  <img src="shots/4.jpeg" width="200"/>
+  <img src="shots/5.jpeg" width="200"/>
+  <img src="shots/6.jpeg" width="200"/>
+</p>
+
+<p align="center">
+  <img src="shots/7.jpeg" width="200"/>
+  <img src="shots/8.jpeg" width="200"/>
+  <img src="shots/9.jpeg" width="200"/>
+</p>
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **n8n** – Workflow Automation
-* **OpenAI GPT-4o-mini** – AI Responses
-* **Airtable** – Database
-* **WhatsApp Business API** – Communication
-* **Google Sheets** – Menu Management
+| Category      | Technology            |
+| ------------- | --------------------- |
+| Automation    | n8n                   |
+| AI Model      | OpenAI GPT-4o-mini    |
+| Database      | Airtable              |
+| Messaging API | WhatsApp Business API |
+| Data Handling | Google Sheets         |
 
 ---
 
 ## 🧠 Skills Demonstrated
 
 * AI Agent Development
-* Workflow Automation (n8n)
+* Workflow Automation
 * API Integration
 * Prompt Engineering
-* Database Design
+* Backend Logic Design
 * Real-world Problem Solving
-
----
-
-## 📸 Screenshots
-
-![Workflow](shots/1.png)
-![Database](shots/2.png)
-![Menu](shots/3.png)
 
 ---
 
 ## 🎥 Demo
 
-> (Add your Loom / YouTube link here)
+> 🚀 Coming Soon (or add your Loom link here)
 
 ---
 
-## 💰 Benefits
+## 📈 Business Impact
 
-### For Business:
+### 💼 For Businesses
 
-* Reduce staff cost
+* Reduce operational cost
 * Handle unlimited orders
 * 24/7 availability
-* Zero human errors
+* Zero manual errors
 
-### For Customers:
+### 👤 For Customers
 
-* Easy ordering via WhatsApp
-* No app download
-* Clear pricing
-* Flexible payments
-
----
-
-## 🎯 Use Cases
-
-* Pizza shops 🍕
-* Cafes ☕
-* Cloud kitchens 🍜
-* Home food businesses 🏠
-* Delivery services 🚚
+* Fast & simple ordering
+* No app installation
+* Flexible payment options
+* Clear communication
 
 ---
 
 ## 🔒 Note
 
-Due to business constraints, full workflow files are not publicly available.
+This project showcases a real-world automation system.
 
-This repository demonstrates:
+Due to business constraints:
 
-* System architecture
-* Features & capabilities
-* Real-world implementation
-
-For demo access, feel free to contact me.
+* Full workflow files are not public
+* Demo access available on request
 
 ---
 
@@ -190,27 +182,22 @@ For demo access, feel free to contact me.
 
 **Om Pandey**
 
-📧 Email: [ompandey.co@gmail.com](mailto:ompandey.co@gmail.com)
-📱 WhatsApp: +91 7380207025
-💼 LinkedIn: https://linkedin.com/in/ompandeyin
-🔗 GitHub: https://github.com/ompandeyin
+📧 [ompandey.co@gmail.com](mailto:ompandey.co@gmail.com)
+📱 +91 7380207025
+💼 https://linkedin.com/in/ompandeyin
+🔗 https://github.com/ompandeyin
 
 ---
 
-## 🙌 Acknowledgments
+## ⭐ Support
 
-* n8n
-* OpenAI
-* Airtable
-* WhatsApp Business API
-* Google Sheets
+If you found this project useful:
 
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub and connect with me!
+👉 Star this repository
+👉 Connect with me on LinkedIn
 
 ---
 
-**Made with ❤️ in India**
+<p align="center">
+  <b>🚀 Building AI Automation Solutions for Real-World Problems</b>
+</p>
